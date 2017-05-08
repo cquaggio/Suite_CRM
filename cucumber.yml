@@ -1,0 +1,10 @@
+default: --no-source --color --format pretty
+
+#Execução do Cadastro
+cadastro: -t @cadastro -f html -o C:\Projetos\Suite_CRM\Evidencias\report_Cadastro.html
+
+#Execução do Edição
+edicao: -t @edicao -f html -o C:\Projetos\Suite_CRM\Evidencias\report_Edicao.html
+
+#Execução do Exclusao
+exclusao: -t @exclusao -f html -o C:\Projetos\Suite_CRM\Evidencias\report_Exclusao.html
